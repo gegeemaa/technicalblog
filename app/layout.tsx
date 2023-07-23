@@ -1,7 +1,6 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import Link from 'next/link'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,31 +15,13 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
 
-  const header = (
-    <header>
-      <div className='text-center bg-slate-800 p-8 mt-6 mb-6 rounded-md'>
-        <Link href="/">
-          <h1 className='text-3xl text-blue-500'>Gerelmaa's note</h1>
-        </Link>
-        <p className='text-slate-300'>Welcome to my tech note.</p>
-      </div>
-    </header>
-  );
-  const footer = (
-    <footer>
-      <div className='border-t border-slate-400 mt-12 py-16 text-center text-slate-400'>
-        <h3>Developed by Gerelmaa</h3>
-      </div>
-    </footer>
-  )
 
   return (
     <html lang="en">
       <body>
-        <div className='mx-auto max-w-7xl px-6 '>
-          {header}
+        <div>
+          {/* {header} */}
           {children}
-          {footer}
         </div>
       </body>
     </html>
