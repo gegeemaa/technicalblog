@@ -13,13 +13,6 @@ const header = (
     </div>
   </header>
 );
-const footer = (
-  <footer>
-    <div className='border-t border-slate-400 mt-12 py-16 text-center text-slate-400'>
-      <h3>Developed by Gerelmaa</h3>
-    </div>
-  </footer>
-)
 
 export default function Home() {
   const postMetadata = getPostMetadata();
@@ -33,7 +26,6 @@ export default function Home() {
       <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
           {postPreviews}
       </div>
-      {footer}
     </div>
 
   )
