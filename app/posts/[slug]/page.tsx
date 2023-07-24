@@ -45,7 +45,7 @@ const PostPage = (props: any) => {
                     </div>
                 </div>
             </div>
-            <article className="prose col-span-1 md:col-span-8 md:py-10 px-5">
+            <article className="prose col-span-1 md:col-span-8 md:py-4 px-5">
                 <Markdown>{post.content}</Markdown>
             </article>
         </div>
