@@ -9,8 +9,12 @@ Tuhain webb huudasruu oroh ued hereglegchided yag ijil medeelel haruuldag ba med
 
 Hereglegch browser deer webb huudasnii url-iig bichehed browser server-ruu html file avah huselt yavuulah ba server hussen file-iig yamar neg oorchloltguigeer shuud yavuulna gesen ug.
 
+Doorh zurgan deer haragdaj baigaachlan `npm build` -eer html, CSS JS-iig aguulsan file uusdeg ba enehuu file-iig server deer hadgalah ba Static huudasnii huvid enehuu build hiisen huudsiig haruulna. Harin dynamic-iin huvid server oor DB-ees medeelel avah geh met nemelt uildel baigaa.
+
+<img src="/statikMarkdownBlog/image1.jpg"/>
+
 **Davuu tal ni:**
-Webb huudsuu ni build hiigdsen baih tul webb huudas mash hurdan ajillana.
+Webb huudsuud ni build hiigdsen baih tul webb huudas mash hurdan ajillana.
 
 ### NextJS deer static webb huudas uusgeh
 Enehuu note haruulj baigaa blog webbsite maani local markdown file-uud-iig static-aar haruulj baigaa yum.
