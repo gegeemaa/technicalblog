@@ -36,3 +36,13 @@ Doorh ni container-iin neriig zaaj ogsongui. Ene ued ner ni automataar uusne.
 `docker run --rm -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root -d mysql`
 
 Deer command-iig ajilluulsnii daraa time-reg nertei container ajlana.
+
+Deerh container deer ajillaj baigaa DB-tai Workbench-eer holbogdohdoo:
+Daraah code-oor seed-iig ajilluulna.
+`npx prisma db seed` 
+
+<img src="/docker/image2.jpg">
+
+Uusgesen DB container-aa workbench-tei holbono.
+
+
