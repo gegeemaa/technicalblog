@@ -7,7 +7,7 @@ Docker ni clowd bogood bi neg command bichehed tsaanaa minii helsen envirement-i
 
 Doorh zurgan haragdaj baigaachlan Dockerfile dotor tuhain project-iig ajilluulahad heregtei envirement-aa todorhoiloh ba Docker hub ni ene file-iin daguu X MB file buyu image beldeg ogno. Docker-oo start hiih ued ene image file-aa minii pc-n deer install hiideg. Ene ued container asna. Untraah ued container untrana. 
 
-<img src="/docker/image1.jpg">
+<img src="/docker/image1.jpg"/>
 
 ### Set up MySQL db in docker:
 
@@ -30,6 +30,7 @@ baigaa images-iig harna.
 hello world gesen image-iig Docker Hub-aas tataj avch bna.
 
 doorh command-aar mysql db image -ee tataj avaad, ajluulna. Doorh deer time-reg gesen nertei container ajillana gej bna.
+
 `docker run --name time-reg -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root -d mysql`
 
 Doorh ni container-iin neriig zaaj ogsongui. Ene ued ner ni automataar uusne.
@@ -38,11 +39,8 @@ Doorh ni container-iin neriig zaaj ogsongui. Ene ued ner ni automataar uusne.
 Deer command-iig ajilluulsnii daraa time-reg nertei container ajlana.
 
 Deerh container deer ajillaj baigaa DB-tai Workbench-eer holbogdohdoo:
-Daraah code-oor seed-iig ajilluulna.
-`npx prisma db seed` 
+
 
 <img src="/docker/image2.jpg">
-
-Uusgesen DB container-aa workbench-tei holbono.
 
 
