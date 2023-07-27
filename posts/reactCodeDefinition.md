@@ -91,3 +91,12 @@ export default function RestaurantCard({restaurant}: Props){
 
 
 ```
+**Linux deerh kommanduud:**
+
+To **delete a file** forcefully, use command:
+
+`rm -f <file name>`
+
+To **delete a directory** forcefully, use command:
+
+`rm -rf <directory name>`
