@@ -69,7 +69,7 @@ seed.ts deer daraah code baina.
 
 
 
-```js
+```javascript
 import { PrismaClient } from '@prisma/client'
 const prisma = new PrismaClient()
 
