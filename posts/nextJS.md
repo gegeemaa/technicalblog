@@ -105,4 +105,7 @@ export default async function Home() {
  
 end console deer hevlesen restaurants browser deer log ni garahgui orond ni command line deer garch bna uchir ni fetchRestaurants() ni server side component bolohoor.
 
+### NextJS-iig ehluuleh:
+
+`npm run dev`
 
