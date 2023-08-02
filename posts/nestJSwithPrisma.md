@@ -129,13 +129,12 @@ process.exit(1)
 Deerh datag DB-ruu hiih command:
 `npx prisma db seed`
 
+6. NestJS-iig asaah:
 
+`npm run start`
+7. Prisma deer DB-ruu datagaa migrate hiih command:
 
-
-
-
-
-
+`npx prisma migrate dev --name init`
 	
 
 
